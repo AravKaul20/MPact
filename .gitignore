@@ -1,0 +1,54 @@
+# Arduino/ESP32 specific files
+*.hex
+*.bin
+*.elf
+*.map
+
+# Build directories
+build/
+.build/
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# Debug files
+*.svd
+debug.cfg
+debug_custom.json
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Libraries (if using library manager)
+libraries/
+
+# Compilation database
+compile_commands.json
+
+# ESP-IDF specific
+sdkconfig
+sdkconfig.old
+build/
+dependencies.lock
+
+# PlatformIO specific
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Python bytecode
+*.pyc
+__pycache__/
+
+# Backup files
+*.bak
+*.orig 
